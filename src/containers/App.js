@@ -47,7 +47,7 @@ class App extends Component {
                         <SearchBox searchChange={this.onSearchChange}/>
                         <Scroll>
                             <ErrorBoundry>
-                            <CardList robots={ filterRobots }/>
+                                <CardList robots={ filterRobots }/>
                             </ErrorBoundry> 
                         </Scroll>
                     </main>
